@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="fontawesome-free-5.2.0-web/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Admin Area | Edit Page</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="left">
+                <ul>
+                    <li><span class="adminbrand">AdminStrap</span></li>
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li><a href="pages.html">Pages</a></li>
+                    <li><a href="posts.html">Posts</a></li>
+                    <li><a href="users.html">Users</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul>
+                        <li><a href="#">Welcome, Sheky</a></li>
+                        <li><a href="login.html">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="left">
+                <h1><span><i class="fas fa-file-alt" style="color: white;"></i> Edit Page</span><small> About</small></h1>
+            </div>
+            <div class="right">
+                <button class="dropdown">Create Content</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="breadcrumb">
+               <div><span style="color: black;">Dashboard / Pages</span> / Edit Page</div>
+        </section>
+    </div>
+
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="link">
+                        <a href="index.html" class="red" style="color: white;"><i class="fas fa-cog" style="color: white;"></i> Dashboard</a>
+                        <a href="pages.html"><i class="fas fa-file-alt"></i> Pages <span class="badge">13</span></a>
+                        <a href="posts.html"><i class="fas fa-pencil-alt"></i> Posts <span class="badge">33</span></a>
+                        <a href="users.html" style="border: none;"><i class="fas fa-user"></i> Users <span class="badge">303</span></a>
+                    </div>
+
+                    <div class="progress">
+                        <h4>Disk space used</h4>
+                        <div class="progress-bar">
+                            <div class="fill-60">
+                                60%
+                            </div>
+                        </div>
+                        <h4>Bandwidth used</h4>
+                        <div class="progress-bar">
+                            <div class="fill-40">
+                                40% 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="latest">
+                        <div style="color:white;" class="latest-top red">Edit Page</div>
+                        <div class="latest-bottom-edit">
+                            <label for="title">Page Title</label><br>
+                            <input type="text" name="title" placeholder="About.."><br>
+                            <label for="body">Page Body</label><br>
+                            <textarea name="body" style="height: 300px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolor asperiores dolorem ab porro? Veniam nam numquam inventore ullam dolorum consectetur, sed ut maiores ipsam aliquam iure commodi explicabo expedita maxime non reiciendis voluptatum consequuntur recusandae! Quod, sapiente quia perferendis tenetur nisi debitis totam quos porro, quo laudantium quas nostrum!</textarea><br>
+                            <input type="checkbox" checked> Published <br>
+                            <label for="tags">Meta Tags</label><br>
+                            <input type="text" name="tags" placeholder="tag1, tag2.."><br>
+                            <label for="description">Meta Description</label><br>
+                            <input type="text" name="description"><br>
+                            <button type="submit" class="btn-white">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright AdminStrap, © 2017</p>
+    </footer>
+</body>
+</html>

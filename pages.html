@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="fontawesome-free-5.2.0-web/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Admin Area | Pages</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="left">
+                <ul>
+                    <li><span class="adminbrand">AdminStrap</span></li>
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li class="current"><a href="pages.html">Pages</a></li>
+                    <li><a href="posts.html">Posts</a></li>
+                    <li><a href="users.html">Users</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul>
+                        <li><a href="#">Welcome, Sheky</a></li>
+                        <li><a href="login.html">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="left">
+                <h1><span><i class="fas fa-file-alt" style="color: white;"></i> Pages</span><small> Manage your site</small></h1>
+            </div>
+            <div class="right">
+                <button class="dropdown">Create Content</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="breadcrumb">
+               <div><span style="color: black;">Dashboard</span> Pages</div>
+        </section>
+    </div>
+
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="link">
+                        <a href="index.html" class="red" style="color: white;"><i class="fas fa-cog" style="color: white;"></i> Dashboard</a>
+                        <a href="pages.html"><i class="fas fa-file-alt"></i> Pages <span class="badge">13</span></a>
+                        <a href="posts.html"><i class="fas fa-pencil-alt"></i> Posts <span class="badge">33</span></a>
+                        <a href="users.html" style="border: none;"><i class="fas fa-user"></i> Users <span class="badge">303</span></a>
+                    </div>
+
+                    <div class="progress">
+                        <h4>Disk space used</h4>
+                        <div class="progress-bar">
+                            <div class="fill-60">
+                                60%
+                            </div>
+                        </div>
+                        <h4>Bandwidth used</h4>
+                        <div class="progress-bar">
+                            <div class="fill-40">
+                                40% 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="latest">
+                            <div style="color:white;" class="latest-top red">Pages</div>
+                            <div class="filter">
+                                <form action="">
+                                    <input type="search" placeholder="Filter Pages..">
+                                </form>
+                            </div>
+                            <div class="latest-bottom">
+                                <table class="pages-table">
+                                    <tr>
+                                        <th>Title</th>
+                                        <th>Published</th>
+                                        <th>Created</th>
+                                        <th></th>
+                                    </tr>
+                                    <tr>
+                                        <td>Home</td>
+                                        <td><span class="fas fa-check-circle"></span></td>
+                                        <td>Dec 12, 2016</td>
+                                        <td><a class="btn-white" href="edit.html">Edit</a> <a class="btn-red" href="#">Delete</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>About</td>
+                                        <td><span class="fas fa-check-circle"></span></td>
+                                        <td>Dec 13, 2016</td>
+                                        <td><a class="btn-white" href="edit.html">Edit</a> <a class="btn-red" href="#">Delete</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Services</td>
+                                        <td><span class="fas fa-times"></span></td>
+                                        <td>Dec 13, 2016</td>
+                                        <td><a class="btn-white" href="edit.html">Edit</a> <a class="btn-red" href="#">Delete</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Contact</td>
+                                        <td><span class="fas fa-check-circle"></span></td>
+                                        <td>Dec 14, 2016</td>
+                                        <td><a class="btn-white" href="edit.html">Edit</a> <a class="btn-red" href="#">Delete</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright AdminStrap, © 2018</p>
+    </footer>
+</body>
+</html>
